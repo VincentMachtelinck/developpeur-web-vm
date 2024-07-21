@@ -1,0 +1,87 @@
+form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    min-height:65vh;
+}
+
+form input {
+    background: transparent;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+form label {
+    color: white;
+}
+
+.formText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 22px;
+}
+
+.formMessage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formMessage label {
+    font-size: 26px;
+    color: rgb(255, 251, 212);
+    margin-top: 50px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15vh;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+@media screen and (min-width:2559px) {
+    form label {
+    font-size: 30px;
+    }
+    form input {
+        font-size: 24px;
+    }
+    .formMessage label {
+        font-size: 30px;
+    }
+    textarea {
+    font-size: 24px;
+    }
+
+}

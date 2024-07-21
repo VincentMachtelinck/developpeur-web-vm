@@ -1,0 +1,120 @@
+@media screen and (min-width:375px) {
+    .cvContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 0 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin: 10px 10px 10px 0;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .xpText {
+        font-size: 14px;
+        margin: 10px 20px 5px 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .xpTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-direction: row-reverse;
+        margin-top:10px;
+    }
+    .society {
+        font-weight: bold;
+    }
+    .xpLine {
+        width: 100%;
+        border: 1px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .knownContainer {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-left:10px;
+        align-items: center;
+       
+    }
+    .knownTextContainer {
+        width:100%;
+    }
+}
+
+@media screen and (min-width:599px) {
+    .knownContainer {
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width:767px) {
+    .cvContainer {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .knownContainer {
+        margin-left: 50px;
+        flex-direction: row;
+    }
+} 
+
+@media screen and (min-width:1023px) {
+    h2 {
+        font-size: 18px;
+    }
+    p {
+    font-size: 14px;
+    }
+    .society {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1439px) {
+    h3 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .xpText {
+        font-size: 18px;
+    }
+    .society {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:2559px) {
+    h3 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size:30px;
+    }
+    p, .xpText {
+        font-size: 22px;
+    }
+    .society {
+        font-size: 26px;
+    }
+    .cvContainer, .knownContainer {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
