@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className={`navbar ${showLinks ? "showNavbar" : "hideNavbar"}`}>
             <div className="navText">
                 <p className="name">Vincent Machtelinck</p>
-                <h1>DEVELOPPEUR FRONTEND</h1>
+                <h1>DEVELOPPEUR FRONT-END</h1>
             </div>
             <ul className="navbarLinks">
                 <a href="/" className="navbarLink"><li className="navbarItem">Accueil</li></a>
