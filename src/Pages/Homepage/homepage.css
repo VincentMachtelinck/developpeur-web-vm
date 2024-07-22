@@ -4,26 +4,31 @@
     object-fit: cover;
     border-radius: 100%;
 }
+
 .homepageText {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .bienvenue {
     color: rgb(255, 231, 212)
 }
 
 @media screen and (min-width:320px) {
     .picture {
-        width:180px;
-        height:180px;
+        width: 180px;
+        height: 180px;
     }
+
     .bienvenue {
-        font-size:22px ;
+        font-size: 22px;
     }
+
     .aPropos {
         font-size: 16px;
     }
+
     .homepagePresentation {
         display: flex;
         flex-direction: column;
@@ -32,54 +37,63 @@
         font-size: 12px;
         margin: 10px;
     }
+
     .homepageText {
-        margin:10px;
+        margin: 10px;
         text-align: justify;
     }
+
     .homepageList {
-        color:white;
+        color: white;
         display: flex;
         flex-direction: column;
-        gap:10px;
-        margin:10px;
+        gap: 10px;
+        margin: 10px;
         text-align: justify;
     }
+
     .homepageBar {
-        width:50%;
+        width: 50%;
         border: 1px solid white;
-        margin:30px;
-    } 
+        margin: 30px;
+    }
 }
 
 @media screen and (min-width:700px) {
     .homepageText {
-    margin-left: 50px;
-    margin-right: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
 @media screen and (min-width:1023px) {
     .homepagePresentation {
-        flex-direction: row; 
-        margin:100px 50px 0 50px;
+        flex-direction: row;
+        margin: 100px 50px 0 50px;
     }
+
     .homepageText {
-        width:50%;
+        width: 50%;
         margin-right: 20px;
     }
+
     .homepageBar {
-    height:200px;
-    width:0;
+        height: 200px;
+        width: 0;
     }
+
     .homepageList {
-        width:80%;
+        width: 80%;
     }
+
     .bienvenue {
         font-size: 26px;
     }
+
     .aPropos {
         font-size: 20px;
     }
+
     p {
         font-size: 12px;
     }
@@ -89,18 +103,23 @@
     .bienvenue {
         font-size: 50px;
     }
+
     .aPropos {
         font-size: 24px;
     }
-    p , li{
-       font-size: 16px; 
+
+    p,
+    li {
+        font-size: 16px;
     }
+
     .picture {
-        width:280px;
+        width: 280px;
         height: 280px;
     }
+
     .homepageBar {
-        height:300px;
+        height: 300px;
     }
 }
 
@@ -108,20 +127,24 @@
     .bienvenue {
         font-size: 70px;
     }
-} 
+}
 
 @media screen and (min-width:2559px) {
     .bienvenue {
         font-size: 100px;
     }
+
     .aPropos {
         font-size: 40px;
     }
-    p, li {
+
+    p,
+    li {
         font-size: 24px;
     }
+
     .picture {
         width: 480px;
         height: 480px;
     }
-} 
+}

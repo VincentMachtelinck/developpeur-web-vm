@@ -9,7 +9,7 @@ form {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    min-height:65vh;
+    min-height: 65vh;
 }
 
 form input {
@@ -72,16 +72,19 @@ textarea {
 
 @media screen and (min-width:2559px) {
     form label {
-    font-size: 30px;
+        font-size: 30px;
     }
+
     form input {
         font-size: 24px;
     }
+
     .formMessage label {
         font-size: 30px;
     }
+
     textarea {
-    font-size: 24px;
+        font-size: 24px;
     }
 
 }

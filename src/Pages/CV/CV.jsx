@@ -4,11 +4,11 @@ import "./cv.css"
 const CV = () => {
     return (
         <>
-            <motion.section 
-            initial={{opacity:0}}
-            animate={{ opacity:1}}
-            transition={{ duration: 2 }}
-            className="cvContainer">
+            <motion.section
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 2 }}
+                className="cvContainer">
                 <h3>Expérience professionnelle</h3>
                 <div className="xpContainer">
                     <div>
@@ -105,31 +105,31 @@ const CV = () => {
                     </div>
                 </div>
                 <div className="xpLine"></div>
-            </motion.section>
-            
-            <motion.section 
-            initial={{opacity:0}}
-            animate={{ opacity:1}}
-            transition={{ duration: 3 }}
-            className="knownContainer">
-                <div className="knownTextContainer">
-                    <h3 className="knownTitle">Savoir-faire</h3>
-                    <div className="xpText">
-                        <p>Gestion de projets en équipe <strong>méthode Agile</strong></p>
-                        <p>Fédèrer autour d’un projet</p>
-                        <p>Prendre de la hauteur / Trouver des solutions</p>
-                        <p>Atteindre des objectifs commerciaux</p>
+                <motion.section
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 3 }}
+                    className="knownContainer">
+                    <div className="knownTextContainer">
+                        <h3 className="knownTitle">Savoir-faire</h3>
+                        <div className="xpText">
+                            <p>Gestion de projets en équipe <strong>méthode Agile</strong></p>
+                            <p>Fédèrer autour d’un projet</p>
+                            <p>Prendre de la hauteur / Trouver des solutions</p>
+                            <p>Atteindre des objectifs commerciaux</p>
+                        </div>
                     </div>
-                </div>
-                <div className="knownTextContainer">
-                    <h3 className="knownTitle">Savoir-être</h3>
-                    <div className="xpText">
-                        <p>Intelligence relationnelle</p>
-                        <p>Orientation client</p>
-                        <p>Positivité</p>
-                        <p>Vision globale</p>
+                    <div className="knownTextContainer">
+                        <h3 className="knownTitle">Savoir-être</h3>
+                        <div className="xpText">
+                            <p>Intelligence relationnelle</p>
+                            <p>Orientation client</p>
+                            <p>Positivité</p>
+                            <p>Vision globale</p>
+                        </div>
                     </div>
-                </div>
+                    <button className="downloadButton"><a href="Vincent_Machtelinck_développeur_Front_REACT.pdf" download="Vincent_Machtelinck_développeur_Front_REACT.pdf" className="lienCV">Télécharger mon CV</a></button>
+                </motion.section>
             </motion.section>
         </>
     );

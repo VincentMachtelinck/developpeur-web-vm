@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './index.css';
 import Navbar from './Components/Navbar/Navbar';
 import Homepage from './Pages/Homepage/Homepage';
@@ -20,10 +20,10 @@ root.render(
           <Route path="/projets" element={<Projets />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>  
-        </main> 
-        <Footer />   
+        </Routes>
+      </main>
+      <Footer />
     </BrowserRouter>
-    
+
   </React.StrictMode>
 );

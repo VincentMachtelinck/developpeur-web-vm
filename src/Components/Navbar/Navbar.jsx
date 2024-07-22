@@ -24,8 +24,8 @@ const Navbar = () => {
             <button className="navbarBurger" onClick={handleShowLinks} >
                 <span className="burger-bar" ></span>
             </button>
-        </nav> 
-        
+        </nav>
+
     );
 }
 

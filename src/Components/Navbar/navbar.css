@@ -23,7 +23,7 @@
 
 .navbarItem {
     color: white;
-    
+
 }
 
 .navbarLine {
@@ -71,7 +71,7 @@ a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position:fixed;
+        position: fixed;
         right: -100vw;
         bottom: 0;
         height: 100vh;
@@ -101,6 +101,10 @@ a:hover {
     }
 
     .navbarBurger:hover {
+        cursor: pointer;
+    }
+
+    .burger-bar:hover {
         cursor: pointer;
     }
 
@@ -145,30 +149,47 @@ a:hover {
     }
 }
 
+
 @media screen and (min-width:1439px) {
     .name {
         font-size: 34px;
     }
+
     h1 {
         font-size: 22px;
     }
+
     .navText {
         flex-direction: row;
-        gap:20px;
+        gap: 20px;
     }
 }
+
 @media screen and (min-width:2559px) {
     .name {
         font-size: 60px;
     }
-    h1{
+
+    h1 {
         font-size: 40px;
     }
-    .navText {
-        gap:40px;
-    }
-    .navbar {
-        margin:50px 50px 0 50px;
-    }
-} 
 
+    .navText {
+        gap: 40px;
+    }
+
+    .navbar {
+        margin: 50px 50px 0 50px;
+    }
+}
+
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

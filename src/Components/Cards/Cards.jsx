@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 const Card = ({ pictures, description, lienGithub, title, webSite }) => {
     return (
         <motion.figure
-            initial={{opacity:0}}
-            animate={{ opacity:1}}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{ duration: 2 }}
             className="card">
             <img src={pictures} alt={title} className="cardPictures" />
